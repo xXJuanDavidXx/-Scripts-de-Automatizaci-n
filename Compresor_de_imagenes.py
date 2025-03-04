@@ -35,9 +35,9 @@ class Comprimir:
             tamano_inicial = os.path.getsize(imagen) / (1024 * 1024)  # Obtenemos el tamaño inicial de la imagen en MB
 
             nombre_archivo, _ = os.path.splitext(os.path.basename(imagen))  # Quitamos cualquier extensión que pueda tener (jpg, png, webp)
-            ruta_salida = os.path.join(self.ruta, f'cp_{nombre_archivo}.webp')  # Agregamos la extensión webp
+            ruta_salida = os.path.join(self.ruta, f'cp_{nombre_archivo}.jpg')  # Agregamos la extensión jpg
 
-            image.save(ruta_salida, 'WEBP', quality=calidad)  # Guardamos la imagen en la ruta dada.
+            image.save(ruta_salida, 'JPEG', quality=calidad)  # Guardamos la imagen en la ruta dada.
             
             tamano_final = os.path.getsize(ruta_salida) / (1024 * 1024)  # Obtenemos el tamaño final de la imagen en MB
             
