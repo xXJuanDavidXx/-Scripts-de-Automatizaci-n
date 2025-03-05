@@ -19,7 +19,7 @@ Ejecuta el siguiente comando en la terminal para ver el uso:
 python compresor_de_imagenes.py
 ```
 
-### Subnetting Script
+### Subnetting.py
 
 #### Descripción
 
@@ -34,30 +34,8 @@ Para ejecutar el script, necesitas proporcionar la máscara de red y la direcci�
 python script.py --netmask 255.255.255.0 --ip 192.168.1.1
 ```
 
-#### Ejemplo de Salida
 
-Aquí tienes un ejemplo de la salida que genera el script:
-
-```
-╔═════════════════════════════╗
-║      Información de Red     ║
-╚═════════════════════════════╝
-╔═════════════════════════════╗
-║ Parámetro                   ║ Valor                         ║
-╠═════════════════════════════╣═══════════════════════════════╣
-║ Máscara de red (decimal)    ║ 255.255.255.0                 ║
-║ Máscara de red (binario)    ║ 11111111.11111111.11111111.00000000 ║
-║ CIDR de la red              ║ /24                           ║
-║ CIDR para hosts             ║ /8                            ║
-║ Capacidad total de la red   ║ 254                           ║
-║ Red identificada (decimal)  ║ 192.168.1.0                   ║
-║ Red identificada (binario)  ║ 11000000, 10101000, 00000001, 00000000 ║
-║ Rango de IP asignables      ║ 192.168.1.1 - 192.168.1.254   ║
-╚═════════════════════════════╝
-```
-
-
-### Script de Búsqueda y Copia de Archivos
+### Buscar_archivos.py
 
 #### Descripción
 
